@@ -5,6 +5,7 @@ import java.util.Objects;
 import java.util.Stack;
 
 public class Solution03 {
+
     public ArrayList<Stack> browserStack(String[] actions, String start) {
         Stack<String> prevStack = new Stack<>();
         Stack<String> nextStack = new Stack<>();

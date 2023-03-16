@@ -58,9 +58,3 @@ else
 
 2. 새로운 페이지에 접속할 경우 next 스택은 전부 지워져야함
 -> else케이스에 next스택을 초기화하는 코드 추가
-
-3. 배열을 순회하는 것이므로 for문 말고 for-each문을 사용권장
--> action이라는 임시 변수를 사용한 for-each문 순회로 변경
-
-4. actions.equals() 메서드 사용시 null-safe하지 않음
--> Object.equals(action, )를 사용하여 NullPointerException 방지
